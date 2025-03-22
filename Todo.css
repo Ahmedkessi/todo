@@ -1,0 +1,693 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: aliceblue;
+}
+
+
+
+
+
+
+/*===========================PAGE1================================================================================================/*/
+.page1{
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: none;
+}
+
+
+.insPage1{
+  background-color: rgb(165, 214, 235);
+  width: 99%;
+  height: 100vh;
+  margin: auto;
+  position: absolute;
+}
+
+
+.page1Head{
+  height: 50px;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid greenyellow;
+}
+
+.page1Head svg{
+  height: 30px;
+  margin: 10px;
+  fill: rgba(0, 0, 163, 0.726);
+  cursor: pointer;
+}
+.page1Head svg:hover{
+  opacity: 0.8;
+}
+
+.page1Head h2{
+  font-family: sans-serif;
+  border: 2px solid rgba(53, 190, 19, 0.685);
+  height: 30px;
+  padding: 7px;
+  width: 70%;
+  text-align: center;
+  border-radius: 5px;
+  color: rgba(0, 0, 255, 0.685);
+  font-weight: bolder;
+  font-size: 1.7rem;
+}
+
+
+.page1Main{
+  height: 87vh;
+  background-color: rgba(134, 184, 228, 0.829);
+  border: 3px solid rgb(36, 223, 36);
+  overflow: scroll;
+  width: 100%;
+  position: relative;
+  background: url(./AdobeStock_470534028_Preview.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*=======DARK MODE MAIN======*/
+.page1MainDarkMode{
+  width: 99%;
+  height: 90vh;
+  background-color: rgba(105, 125, 141, 0.829);
+  border: 3px solid rgb(36, 223, 36);
+  overflow: scroll;
+  width: 100%;
+  position: relative;
+  background: url(AdobeStock_167235520_Preview.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -22;
+}
+
+
+.insPage1Main{
+  height: auto;
+  position: absolute;
+  /* background-color: rgba(172, 255, 47, 0.795); */
+  width: 99%;
+  margin: auto;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.836);
+  font-weight: bold;
+  /* display: grid;
+  grid-template-columns: 200px 150px 100px;
+  gap: 20px;
+  padding: 10px;
+  font-family: Arial; */
+}
+
+.insPage1Main .Line{
+  width: 90%;
+  margin: auto;
+  background-color: rgba(107, 255, 8, 0.815);
+  border: 1px solid rgb(6, 239, 247);
+  border-radius: 10px;
+  padding: 10px;
+  line-height: 3;
+  box-shadow: 0px 0px 3px 0px;
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  margin: 10px;
+}
+
+
+
+.addIcon p{
+  font-size: 2.6rem;
+  font-weight:bolder;
+  height: 40px;
+  border: 1px solid;
+  padding: 5px;
+  width: 40px;
+  text-align: center;
+  line-height: 1;
+  border-radius: 100%;
+  background-color: rgba(110, 110, 255, 0.726);
+  cursor: pointer;
+  bottom: 120px;
+  right: 30px;
+  position: absolute;
+  box-shadow: 0px 0px 5px 3px rgba(14, 14, 138, 0.685); 
+}
+
+.addIcon p:hover{
+  opacity: 0.7;
+}
+
+.footerPage1{
+  height: 70px;
+  background-color: #114470d3;
+  width: 100%;border: 2px solid green;
+ position: absolute;
+ bottom: 0px;
+}
+
+
+.iconsPage1 svg{
+  height: 35px;
+  width: 30px;
+  fill: white;
+  background-color: rgba(23, 255, 23, 0.61);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.iconsPage1 svg:hover{
+  background-color: rgb(23, 255, 23);
+  border-radius: 100%;
+  margin-top: -20px;
+  transition: 1s;
+}
+
+
+.iconsPage1{
+  width: 80%;
+  margin: auto;
+  gap: 10;
+  display: flex;
+  justify-content: space-between;
+}
+/*===========================================================================================================================/*/
+
+
+
+
+
+
+
+
+
+/*==================PAGE2=========================================================================================================/*/
+.page2{
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: none;
+}
+
+
+
+.insPage2{
+  background-color: rgb(165, 214, 235);
+  width: 99%;
+  height: 100vh;
+  margin: auto;
+  position: absolute;
+}
+
+
+
+.page2Head{
+  height: 50px;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid greenyellow;
+}
+
+
+.page2Head h2{
+  font-family: sans-serif;
+  border: 2px solid rgba(53, 190, 19, 0.685);
+  height: 30px;
+  padding: 7px;
+  width: 70%;
+  text-align: center;
+  border-radius: 5px;
+  color: rgba(0, 0, 255, 0.685);
+  font-weight: bolder;
+  font-size: 1.7rem;
+  margin: auto;
+}
+
+
+
+.page2Main{
+  height: 500px;
+  width: 90%;
+  margin: auto;
+  background-color: rgba(148, 243, 7, 0.555);
+  border-radius: 20px;
+  margin-top: 40px;
+  position:relative;
+  text-align: center;
+  box-shadow: 0px 0px 4px 1px;
+}
+
+.page2Input{
+  padding: 18px;
+  width: 50%;
+  border: none;
+  margin: 50px;
+  height: 20px;
+  background-color: rgb(250, 250, 252);
+  box-shadow: 0px 0px 2px 0px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.page2Input:focus{
+  padding: 18px;
+  outline: none;
+  border: 1px solid green;
+  box-shadow: none;
+}
+
+.page2InputDate{
+  padding: 18px;
+  width: 50%;
+  border: none;
+  margin: 50px;
+  height: 20px;
+  background-color: rgb(250, 250, 252);
+  box-shadow: 0px 0px 2px 0px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.page2InputDate:focus{
+  padding: 18px;
+  outline: none;
+  border: 1px solid green;
+  box-shadow: none;
+}
+
+
+
+.page2Button{
+  padding: 20px;
+  width: 20%;
+  border: 1px solid green;
+  margin: 50px;
+  background-color: rgba(72, 72, 238, 0.63);
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+.page2Button:hover{
+  opacity: 0.8;
+}
+
+.xmark{
+  height: 30px;
+  left: 20px;
+  top: 10px;
+  position: absolute;
+  cursor: pointer;
+  fill: rgba(0, 0, 163, 0.726);
+  cursor: pointer;
+}
+
+.Deletebtn{
+  padding: 10px;
+  background-color: rgba(0, 0, 163, 0.726); 
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 15px;
+}
+/*====================================================================================================================================/*/
+
+
+
+
+
+
+
+
+
+
+/*==================PAGE3=========================================================================================================/*/
+.page3{
+  position: absolute;
+  top: 0px;
+  left: -100%;
+  background-color: rgb(18, 248, 229);
+  padding: 20px;
+  height: 93.7vh;
+  box-shadow: 0px 0px 5px 0px;
+  width: 90%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  /* visibility: hidden; */
+  display: none;
+  transition: 2s;
+}
+
+
+
+.insPage3{
+  width: 90%;
+  text-align: center;
+  margin: 10px;
+}
+
+.insPage3Line1, .insPage3Line2, .insPage3Line3{
+  display: grid;
+  grid-template-columns: 10% 80%;
+  gap: 0;
+  margin-bottom: 50px;
+  background-color: greenyellow;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 3px 0px;
+  line-height: 1.5;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(7, 134, 124);
+  height: 40px;
+  font-size: 1.6rem;
+}
+
+.insPage3Line1 svg, .insPage3Line2 svg, .insPage3Line3 svg{
+  fill: rgb(5, 41, 5);
+  height: 35px;
+  cursor: pointer;
+}
+
+.insPage3Line1 input{
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0px 0px 2px 0px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.insPage3Line1 input:focus{
+  outline: none;
+  box-shadow: none;
+  border: 1px solid aqua;
+}
+
+/*===================================================================================/*/
+
+
+
+
+
+
+
+
+
+
+/*/=================================LogOut Page===============================================================================================*/
+.logOut{
+  height: 280vh;
+  padding: 10px;
+  width: 97%;
+  overflow: hidden;
+  position: absolute;
+  background: url(./pexels-danbuilds-633409.jpg);
+ background-position: center;
+ background-size: cover;
+  color: aqua;
+}
+
+
+
+.insLogOut{
+  position: absolute;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.insLogOutText{  
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color:rgb(7, 247, 255);
+  margin-bottom: 80px;
+  line-height: 2;
+}
+
+.insLogOut h1, h3{
+  color: white;
+  padding: 20px;
+  border-bottom: 5px double red;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.insLogOutText img{
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 2px aqua;
+  height: 210px;
+}
+
+.insLogOutText2{
+  margin-top: 20px;
+  backdrop-filter: blur(13px);
+  width: 50%;
+  margin: auto;
+  padding: 40px;
+  height: 350px;
+  box-shadow: 0px 0px 6px 3px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.insLogOutText2 li{
+  margin-bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.insLogOutText3{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.insLogOutText3 img{
+  height: 200px;
+  width: 250px;
+  padding: 4px;
+  border-radius: 35px;
+  box-shadow: 0px 0px 1px 1px;
+  margin: 40px;
+}
+
+
+.sign h4{
+  width: 20%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: rgba(255, 0, 0, 0.671);
+  box-shadow: 0px 0px 2px 1px;
+  cursor: pointer;
+  transition: 1s;
+  font-family: sans-serif;
+  font-size: 23px;
+  margin-top: 140px;
+}
+
+.sign h4:hover{
+  background-color: red;
+  transition: 1s;
+}
+
+.footer{
+  position: relative;
+  bottom: -10px;
+}
+/*===================================================================================================================================================================*/
+
+
+
+
+
+
+
+
+
+
+/*===============================REGISTER====================================================================================================================================*/
+.register{
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(156, 231, 44, 0.527);
+  position: absolute;
+  display: none;
+}
+
+.insRegister{
+ background-color: rgb(255, 255, 255);
+ height: 500px;
+ width: 30%;
+ margin: auto;
+ box-shadow: 0px 0px 5px 0px;
+ border-radius: 20px;
+ padding: 30px;
+  margin-top: 1%;
+
+}
+
+.Line1{
+  text-align: center;
+  font-size: 15px;
+  padding: 6px;
+  margin-bottom: 5px;
+}
+
+
+.Line2{
+ width: 95%;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.Line2 label{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+
+
+.insLine2 input{
+  width: 93%;
+  margin: auto;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  border: none;
+  box-shadow: 0px 0px 2px 0px;
+  position: relative;
+}
+
+.insLine2 input:focus{
+outline: none;
+border: 2px solid green;
+box-shadow: none;
+}
+
+
+
+
+.insLine2 svg{
+  position: absolute;
+  height: 25px;
+  right: 20px;
+  bottom: 34px;
+}
+
+.insLine2 p{
+  margin-top: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.xMark, .errorMessage{
+  fill: red;
+  color: red;
+ display: none;
+}
+
+.tickMark{
+  position: absolute;
+  right: 20px;
+  bottom: 34px;
+  color: rgb(113, 189, 0);
+  font-size: 22px;
+  display: none;
+}
+
+.successMessage{
+  color: rgb(106, 170, 9);
+  display: none;
+}
+
+.insRegister button{
+  background-color: orange;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 110px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid green;
+  cursor: pointer;
+  height: 50px;
+}
+
+.load{
+  font-family: sans-serif;
+  text-align: center;
+  display: none;
+}
+
+/*===================================================================================================================================================================*/
+
+
+
+.animation{
+  animation: spin 2s linear infinite;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: inset 0 0 50px #fff,
+              inset 20px 0 10px rgb(7, 119, 3),
+              inset -20px 0 10px blue,
+              inset 20px 0 300px rgb(0, 255, 34),
+              inset -20px 0 300px blue,
+              0 0 50px #fff,
+              -10px 0 60px rgb(139, 238, 130),
+              -150px 340px 30px blue;
+}
+
+@keyframes spin {
+  0%{
+    top:20px;
+
+  }
+  25%{
+    top: 22px;
+  }
+  50%{
+    top:30px;
+
+  }
+  70%{
+    top: 27px;
+  }
+  100%{
+    transform: rotate(360deg);
+    top: 20px;
+  }
+}
+
+.anm{
+  height: 200px;
+  width: 200px;
+}
